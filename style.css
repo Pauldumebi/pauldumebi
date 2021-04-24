@@ -184,15 +184,14 @@ section .section-title {
 .backside .card {
     height: 28rem;
 }
-.naijakids .carded {
-    /* background: url(Images/9ijakids.jpg) !important; */
+/* .naijakids .carded {
+    background: url(Images/9ijakids.jpg) !important;
     height: 25rem;
-    
     background-repeat: no-repeat;
-  background-size: auto;
-}
+    background-size: auto;
+} */
 
-.nimdee .card {
+/* .nimdee .card {
     background: url(Images/nimdee.jpg) !important;
     height: 25rem;
     width: 20rem;
@@ -206,7 +205,7 @@ section .section-title {
     background: url(Images/mobi-website.png) !important;
     height: 25rem;
     width: 100%;
-}
+} */
 
 .image-flip:hover .backside,
 .image-flip.hover .backside {

@@ -1,3 +1,7 @@
+$('.carousel').carousel({
+  interval: 2000
+})
+
 $(".skills").click(function() {
     $('html,body').animate({
         scrollTop: $(".my-skills-section").offset().top},
