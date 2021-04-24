@@ -176,12 +176,18 @@ section .section-title {
     background: #ffffff;
 }
 .frontside img {
-    height: 25rem;
+    height: 28rem;
+    width: 22rem;
+    border-radius: 5px;
 }
-.naijakids .card {
-    background: url(Images/9ijakids.jpg) !important;
-    /* height: 25rem;
-    width: 20rem; */
+
+.backside .card {
+    height: 28rem;
+}
+.naijakids .carded {
+    /* background: url(Images/9ijakids.jpg) !important; */
+    height: 25rem;
+    
     background-repeat: no-repeat;
   background-size: auto;
 }
