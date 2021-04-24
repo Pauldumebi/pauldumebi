@@ -12,6 +12,9 @@ body, html {
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+li {
+    list-style-type: none;
+}
 
 .scrolled {
     background-color: #333 !important;
@@ -316,4 +319,18 @@ section .section-title {
     border: none;
     padding: 1.5rem;
     background-color: #171822;
+}
+.socials {
+    background-color: #171822;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.bottom-separator {
+    background-color: #EEEEEE;
+    height: .1rem;
+}
+
+.footer-notes p{
+    color: #6C6E7A;
 }
