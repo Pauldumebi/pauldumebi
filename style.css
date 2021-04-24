@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body, html {
+    background-color: #333646;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.scrolled {
+    background-color: #333 !important;
+    transition: background-color 200ms linear;
+}
+
+#navbar {
+    z-index: 1000;
+   
+}
+
+.nav-item a:hover {
+    cursor: pointer;
+}
+  
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* border-bottom: 1px solid #; */
+}
+  
+.sticky + .content {
+    padding-top: 60px;
+}
+
+h1 {
+    font-weight: 700;
+    letter-spacing: -2.5%;
+}
+
+.hire-me-text a {
+    color: #F8C40C;
+}
+.separator {
+    margin-top: 7rem;
+}
+
+.separator-bottom {
+    margin-bottom: 7rem;
+}
+.works-separator {
+    padding-top: 7rem;
+}
+
+.nav-link{
+    font-weight: 500;
+    color: #5A5C6A !important;
+    padding-right: 3rem !important;
+}
+
+.active {
+    color: white !important;
+}
+
+.image {
+    position: absolute;
+    width: 390px;
+    height: 400px;
+    background: url(Images/Dumebi.JPG);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin-top: -2rem;
+    margin-left: -1rem;
+    
+}
+.about-me-img {
+    padding-left: 2.1rem;
+}
+
+.description-of-stack img{
+    /* margin-top: 1rem; */
+    width: 99.9%;
+}
+.rectangle {
+    width: 400px;
+    height: 400px;
+    border: 7px solid #F8C40C;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.about-me {
+    line-height: 177.5%;
+}
+.frontend,
+.backend {
+    font-weight: 700;
+}
+.card {
+    background-color : #333646 !important;
+}
+
+.card-container .card-body-border-2 {
+    border: 6px solid #F8C40C;
+    border-radius: 14px;
+}
+.card-container .card-body-border {
+    background: #333646;
+    border: 6px solid #252734;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 230px;
+}
+.work-card-container {
+    background: #C4C4C4;
+}
+.card-container .card { 
+    border: none ;       
+}
+.imagine {
+    padding-top: 6rem;
+}
+.hire-me a{
+    color: #F8C40C;
+    font-weight: 300;
+    border-bottom: .1rem solid #F8C40C;
+    padding-bottom: .5rem;
+}
+.hire-me a:hover {
+    text-decoration: none;
+}
+.my-works-section {
+    background-color: #252734;
+}
+
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+/* section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+} */
+
+.img-fluid {
+    max-width: 130% !important;
+}
+.mainflip .card {
+    height: 25rem;
+}
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+.frontside img {
+    height: 25rem;
+}
+.naijakids .card {
+    background: url(Images/9ijakids.jpg) !important;
+    /* height: 25rem;
+    width: 20rem; */
+    background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.nimdee .card {
+    background: url(Images/nimdee.jpg) !important;
+    height: 25rem;
+    width: 20rem;
+}
+.githubfinda .card {
+    background: url(Images/githubfinda.jpg) !important;
+    height: 25rem;
+    width: 20rem;
+}
+.big-image .card {
+    background: url(Images/mobi-website.png) !important;
+    height: 25rem;
+    width: 100%;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    /* -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158); */
+    /* -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158); */
+    /* box-shadow: 5px 7px 9px -4px rgb(158, 158, 158); */
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: white;
+    background-color: #0275d8;
+    padding: .5rem 2rem;
+    /* color: #007b5e !important; */
+}
+.backside .card a:hover {
+    text-decoration: none;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #F8C40C !important;
+}
+.hitmeup {
+    background-color: #F8C40C;
+    border-radius: 20px;
+}
+.frontside .card .card-body img {
+    /* width: 120px;
+    height: 120px;
+    border-radius: 50%; */
+}
+.form-group input,.form-group textarea {
+    border-radius: 20px;
+    border: none;
+    padding: 1.5rem;
+    background-color: #171822;
+}
