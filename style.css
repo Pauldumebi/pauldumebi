@@ -334,3 +334,10 @@ section .section-title {
 .footer-notes p{
     color: #6C6E7A;
 }
+@media only screen and (max-width: 768px) {
+    .card-container {
+        display: grid !important;
+        /* grid-template-columns: repeat(2, 1fr); */
+    }
+    
+}
