@@ -339,5 +339,8 @@ section .section-title {
         display: grid !important;
         /* grid-template-columns: repeat(2, 1fr); */
     }
+    .carousel-item img {
+        height: 15rem;
+    }
     
 }
