@@ -60,9 +60,9 @@ function myFunction() {
 
 function sendEmail() {
   var name = document.getElementById("name").value;
-  var email = document.getElementById("Email").value;
+  var phoneNumber = document.getElementById("phone-number").value;
   var submitEnquiry = document.getElementById("submit-enquiry").value;
   var subj = "Enquiry";
   parent.location = 'mailto:paul.chukwurah10@gmail.com?subject=' + encodeURIComponent(subj) +
-      `&body=${submitEnquiry}, from ${name}`;
+      `&body=${submitEnquiry}, from ${name}. ${phoneNumber}`;
 }
