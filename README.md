@@ -2,7 +2,7 @@
 
 I am highly adaptable, open to learning new things. I’m deligent, self-driven and enthusiastic. I love People & Technology. I believe in growth and productiveness.
 
-A passionate Web Developer with a year of experience in FRONTEND and BACKEND technologies ranging from HTML, CSS, JS PHP, REACT, MYSQL, API’s that is focused on improving the usability of digital products. Skillful in web design and development, graphics design, troubleshooting skills as well as able to recommend solutions that facilitate IT.
+A passionate Web Developer with a year of experience in FRONTEND and BACKEND technologies ranging from HTML, CSS, JS PHP, LARAVEL, VUE JS, REACT, MYSQL, API’s that is focused on improving the usability of digital products. Skillful in web design and development, graphics design, troubleshooting skills as well as able to recommend solutions that facilitate IT.
 I am currently learning react, laravel. I am open to collaboration. You can reach me on my 
 website: https://pauldumebi.netlify.app/ ; 
 Phone: 08136359648 ;
