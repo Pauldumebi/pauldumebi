@@ -254,6 +254,10 @@ h1 {
     height: .1rem;
 }
 
+.carousel-indicators {
+    top: 115%;
+}
+
 .footer-notes p{
     color: #6C6E7A;
 }
@@ -271,14 +275,13 @@ h1 {
     .image img {
         width: 90%;
         margin-left: -1.5rem;
-        height: auto;
+        height: 100%;
     }
     .row {
         display: grid;
     }
     .rectangle {
         width: 100%;
-        height: 370px;
     }
     .mainflip {
         text-align: center;
@@ -288,9 +291,11 @@ h1 {
         padding-right: unset !important;
         padding-top: unset !important;
     }
-
+    .about-me {
+        margin-top:5rem
+    }
     .frontside img {
-        width: unset;
+        width: 100%;
     }
 }
 @media screen and (max-width: 400px) {}
