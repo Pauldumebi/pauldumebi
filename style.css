@@ -148,7 +148,7 @@ h1 {
 }
 .frontside img {
     height: 28rem;
-    width: 22rem;
+    width: 98%;
     border-radius: 5px;
 }
 .backside .card {
