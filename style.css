@@ -66,6 +66,11 @@ h1 {
     margin-top: -2rem;
     margin-left: -1rem;
 }
+
+#profile-header {
+    font-size: 18px;
+}
+
 .about-me-img {
     padding-left: 2.1rem;
 }
@@ -110,7 +115,7 @@ h1 {
     border: none ;       
 }
 .imagine {
-    padding-top: 6rem;
+    padding-top: 4rem;
 }
 .hire-me a{
     color: #F8C40C;
