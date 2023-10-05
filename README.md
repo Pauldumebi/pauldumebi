@@ -8,6 +8,7 @@ You can reach me on my
 website: https://pauldumebi.netlify.app/ ; 
 Phone: +447770039566, +2348136359648 ;
 Email: paulchukwurah7@gmail.com ;
+Linkedin: https://www.linkedin.com/in/pauldumebi/;
 
 Fun fact about me: 
 1. I am pretty bad at dancing even tho i can sit and visualize all the moves. Infact i dance better when I'm seated than standing.
