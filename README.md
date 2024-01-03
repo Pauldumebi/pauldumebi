@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-A passionate Web Developer with experience in FRONTEND and BACKEND technologies ranging from HTML, CSS, JS PHP, LARAVEL, VUE JS, REACT, MYSQL, Next Js, that is focused on improving the usability of digital products. Skillful in web design and development, machine learning, troubleshooting skills as well as able to recommend solutions that facilitate IT.
+A passionate Web Developer with experience in FRONTEND and BACKEND technologies ranging from HTML, CSS, JS PHP, LARAVEL, VUE JS, REACT, MYSQL, Next Js, that is focused on improving the usability of digital products. Skillful in web design and mobile development, machine learning, troubleshooting skills as well as able to recommend solutions that facilitate IT.
 
 I have a calm, collected personality, and I am technically competent. I am highly adaptable, self-driven, enthusiastic, open to learning new things. I love People & Technology and I believe in growth and productiveness.
 
